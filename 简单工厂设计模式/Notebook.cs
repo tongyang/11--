@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _11_第十三天
+namespace 简单工厂设计模式
 {
-    class Program
+    abstract class Notebook
     {
-        static void Main(string[] args)
-        {
-
-        }
+        public abstract void SayHello();
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _11_第十三天
 {
-    class Program
+    public class Person
     {
-        static void Main(string[] args)
-        {
+    }
 
-        }
+    internal class Student
+    {
     }
 }

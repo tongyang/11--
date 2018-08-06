@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F5376160-21F2-485F-8DA4-96ADA5BF321F}</ProjectGuid>
+    <ProjectGuid>{CB19BB70-BB13-4D04-9503-0D44F37BCE4B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_11_第十三天</RootNamespace>
-    <AssemblyName>11-第十三天</AssemblyName>
+    <RootNamespace>访问修饰符</RootNamespace>
+    <AssemblyName>访问修饰符</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,12 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\11-第十三天\11-第十三天.csproj">
+      <Project>{f5376160-21f2-485f-8da4-96ada5bf321f}</Project>
+      <Name>11-第十三天</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
