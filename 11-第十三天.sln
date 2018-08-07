@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单工厂设计模式", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "引用类型的值传递", "引用类型的值传递\引用类型的值传递.csproj", "{2A93958E-5783-4CDC-B706-F18D7CA69095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列号与反序列号", "序列号与反序列号\序列号与反序列号.csproj", "{3C22B631-DF69-4B34-86AB-5947EA38AF87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2A93958E-5783-4CDC-B706-F18D7CA69095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A93958E-5783-4CDC-B706-F18D7CA69095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A93958E-5783-4CDC-B706-F18D7CA69095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C22B631-DF69-4B34-86AB-5947EA38AF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C22B631-DF69-4B34-86AB-5947EA38AF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C22B631-DF69-4B34-86AB-5947EA38AF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C22B631-DF69-4B34-86AB-5947EA38AF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
