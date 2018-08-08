@@ -8,7 +8,7 @@ namespace 超市收银管理系统
 {
     class Acer : ProductFather
     {
-        public Acer(double price, double count, string id) : base(price, count, id)
+        public Acer(double price, string name, string id) : base(price, name, id)
         {
 
         }

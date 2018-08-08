@@ -14,7 +14,7 @@ namespace 超市收银管理系统
             get;
         }
 
-        public double Count
+        public string Name
         {
             set;
             get;
@@ -26,10 +26,10 @@ namespace 超市收银管理系统
             get;
         }
 
-        public ProductFather(double price, double count, string id)
+        public ProductFather(double price, string name, string id)
         {
             this.Price = price;
-            this.Count = count;
+            this.Name = name;
             this.ID = id;
         }
     }
